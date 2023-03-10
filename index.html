@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piedra, Papel o Tijeras</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <h1>Piedra, Papel o Tijeras</h1>
+    <p id="mensaje">Elige tu jugada:</p>
+    <div class="jugadas">
+      <button class="btn-jugada" data-jugada="piedra"><i class="fa fa-hand-rock"></i> Piedra</button>
+      <button class="btn-jugada" data-jugada="papel"><i class="fa fa-hand-paper"></i> Papel</button>
+      <button class="btn-jugada" data-jugada="tijeras"><i class="fa fa-hand-scissors"></i> Tijeras</button>
+    </div>
+    <div class="resultado">
+      <p class="mensaje"></p>
+      <p class="jugador">Jugador: <span class="jugada"></span></p>
+      <p class="computadora">Computadora: <span class="jugada"></span></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <script src="juegos.js"></script>
+  </body>
+</html>
